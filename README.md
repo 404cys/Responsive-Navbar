@@ -62,7 +62,6 @@ Here’s the code for the responsive navbar:
 
 
 Code Explanation
-Logo: The logo is placed on the left side of the navbar.
 
 Menu Toggle (Hamburger Icon): The menu toggle is a hidden checkbox. When clicked, it opens the menu on smaller screens. We use peer classes to manage the visibility of the navbar based on whether the checkbox is checked.
 
