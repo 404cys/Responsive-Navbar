@@ -56,3 +56,26 @@ Here’s the code for the responsive navbar:
         </ul>
     </nav>
 </div>
+```
+
+
+
+
+Code Explanation
+Logo: The logo is placed on the left side of the navbar.
+
+Menu Toggle (Hamburger Icon): The menu toggle is a hidden checkbox. When clicked, it opens the menu on smaller screens. We use peer classes to manage the visibility of the navbar based on whether the checkbox is checked.
+
+Navbar Menu: On small screens, the navbar items are stacked vertically (flex-col), but on larger screens, they align horizontally (flex-row).
+
+Transition Effects: Tailwind’s transition-all and duration-500 are used to animate the opening/closing of the navbar.
+
+Key Tailwind Classes Used
+peer: Used to control the visibility of the navbar when the checkbox is checked.
+
+flex-col and flex-row: These are used to stack navbar items vertically on small screens and horizontally on larger screens.
+
+md:hidden lg:hidden: The hamburger icon (☰) is only visible on small screens.
+
+peer-checked: This class helps control visibility when the checkbox is checked, allowing the navbar to slide in/out.
+
